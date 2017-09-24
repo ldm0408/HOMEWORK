@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url("./normalize.css");
+@import url("./reset.css");
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+legend {
+  position: absolute;
+  left: -9999em;
+}
+
+a:hover,
+a:focus {
+  color: #f00;
+}
+
+.login {
+  background: radial-gradient(circle at right top, #ffa84c 0%, #ff7b0d 100%);
+  width: 300px;
+  height: 180px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 #aaa;
+}
+
+.login-heading {
+  color: yellow;
+  font-weight: bold;
+  padding: 0 10px 10px 10px;
+}
+
+.login-form {
+  background: #fff;
+  padding: 10px 10px 0 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+fieldset {
+  position: relative;
+  padding: 5px;
+  border-bottom: 1px solid #aaa;
+}
+
+.btn-login {
+  position: absolute;
+  right: 5px;
+  margin-top: 5px;
+  top: 0;
+  width: 60px;
+  height: 55px;
+  background: #f00;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+label {
+  display: inline-block;
+  width: 4em;
+}
+
+input {
+  width: 100px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.member {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 0 0px 5px 5px;
+}
+
+li a {
+  padding: 5px;
+}
